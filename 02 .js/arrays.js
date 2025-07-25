@@ -9,14 +9,14 @@ console.log(marvel_Heros[5][2]);
 const allNew_heros = [...marvel_Heros, ...dc_heros,] // spread operator is used to merge two or more arrays 
 console.log(allNew_heros);
 
-const another_arr =[1,2,3,4,[45,67,56],8,[5,6,78,[7,8,90]]]
-const real_arr = another_arr.flat(Infinity)  // flat 
+const another_arr =[1,2,3,4,[45,67,56],8,[5,6,78,[7,8,90]]] // this is a nested array  
+const real_arr = another_arr.flat(Infinity)  // flat method is used to flatten nested arrays
 console.log(real_arr);
 
 
-console.log (Array.isArray("camando"));
-console.log (Array.from("camando"));
-console.log (Array.from({name :"camando"}));
+console.log (Array.isArray("camando")); // it will return false because "camando" is a string not an array
+console.log (Array.from("camando"));// it will return an array of characters from the string "camando"
+console.log (Array.from({name :"camando"}));// it will return an array with a single element which is the object {name: "camando"}
 
 
 let score1 = 100

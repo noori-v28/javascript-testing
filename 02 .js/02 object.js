@@ -11,8 +11,8 @@ tinderUser.isLoggedIn = false
 
 // console.log(tinderUser);
 
-const touristUser = {
-    email:"sonu nigam .gmail.com",
+const touristUser = {          // this is a object literal syntex
+    email:"sonu nigam .gmail.com", 
     fullname:{
         username:{
             firstname:"maangus",
@@ -67,14 +67,14 @@ console.log(tinderUser.hasOwnProperty('isLogged')); // we have to ask using this
 
 //how to desturcture values
 
-const course = {
+const course = { 
     coursename: "basic javascript",
     price:"999",
     courseInstructor:"kuttub"
 }
 
 
-const {courseInstructor : instructor} =course
+const {courseInstructor : instructor} =course     // this is a destructuring syntex , we can use any name for the value , here we use instructor as a value of courseInstructor
 //console.log(courseInstructor);
 console.log(instructor);
 

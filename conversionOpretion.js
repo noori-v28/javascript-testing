@@ -15,7 +15,7 @@
 //****/ opretion**** //
 // let value= 3 
 
-// let negvelue = -value
+// let negvelue = -value 
 
 //console.log(negvalue);
 //console.log(2/2);
